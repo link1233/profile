@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(205, 235, 235);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: rgb(129, 95, 83);
+}
+
+h1,h2 {
+  color: rgb(216, 150, 28);
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 300px;
+  letter-spacing: 1px;
+}
+
+p{
+  padding-bottom: 15px;
+}
+
+ a{
+    color: rgb(156, 116, 248);
+    text-decoration:none
+ }
+
+ a:hover{
+  color: rgb(16, 16, 143);
+ }
+
+ .container{
+  text-align: center;
+  width: 800px;
+  margin: auto;
+
+ }
+
+ .card{
+  background-color: rgb(230, 230, 204);
+  border-radius: 15px;
+  border: 5px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding-bottom: 30px;
+
+ }
+
+#profile_round{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+#link_color {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.horizontal li{
+  display: inline;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
